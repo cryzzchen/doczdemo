@@ -1,0 +1,26 @@
+{
+  "name": "dozdemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docz:dev": "docz dev",
+    "docz:build": "docz build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryzzchen/dozdemo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryzzchen/dozdemo/issues"
+  },
+  "homepage": "https://github.com/cryzzchen/dozdemo#readme",
+  "dependencies": {
+    "docz": "^0.10.2",
+    "docz-core": "^0.10.2",
+    "docz-plugin-css": "^0.10.2",
+    "typescript": "^3.0.1"
+  }
+}

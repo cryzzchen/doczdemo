@@ -1,0 +1,12 @@
+node_modules/
+build/
+logs/
+src/server/json/
+json/
+.hg/
+.vscode/
+yarn-error.log
+dist/
+npm-debug.log
+npm-debug.log.2587420473
+server/node_modules/

@@ -1,0 +1,53 @@
+{
+  "config": {
+    "title": "hualuoDoc",
+    "description": "描述",
+    "themeConfig": {},
+    "ordering": "descending",
+    "version": "1.0.0",
+    "repository": "https://github.com/cryzzchen/dozdemo",
+    "src": "./",
+    "files": "**/*.mdx",
+    "typescript": true,
+    "propsParser": true,
+    "plugins": [
+      {}
+    ]
+  },
+  "entries": {
+    "test.mdx": {
+      "name": "Hello world",
+      "id": "500c9e61ab378cdcebd3a49a682704ef",
+      "filepath": "test.mdx",
+      "link": "https://github.com/cryzzchen/dozdemo\\edit\\master/test.mdx",
+      "slug": "test",
+      "route": "/test",
+      "order": 0,
+      "menu": null,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "Hello world"
+        }
+      ]
+    },
+    "components/buttons.mdx": {
+      "menu": "components",
+      "name": "Hello world",
+      "id": "03f35749485c03aeeb07bc90c21f4ff8",
+      "filepath": "components/buttons.mdx",
+      "link": "https://github.com/cryzzchen/dozdemo\\edit\\master/components/buttons.mdx",
+      "slug": "components-buttons",
+      "route": "/components-buttons",
+      "order": 0,
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "hello-world",
+          "value": "Hello world"
+        }
+      ]
+    }
+  }
+}

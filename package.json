@@ -18,9 +18,6 @@
   },
   "homepage": "https://github.com/cryzzchen/dozdemo#readme",
   "dependencies": {
-    "docz": "^0.10.2",
-    "docz-core": "^0.10.2",
-    "docz-plugin-css": "^0.10.2",
-    "typescript": "^3.0.1"
+    "docz": "^0.12.13"
   }
 }

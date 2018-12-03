@@ -1,53 +1,38 @@
 {
   "config": {
-    "title": "hualuoDoc",
-    "description": "描述",
+    "title": "Dozdemo",
+    "description": "My awesome app using docz",
     "themeConfig": {},
+    "menu": [],
     "ordering": "descending",
     "version": "1.0.0",
     "repository": "https://github.com/cryzzchen/dozdemo",
-    "src": "./",
-    "files": "**/*.mdx",
-    "typescript": true,
-    "propsParser": true,
-    "plugins": [
-      {}
-    ]
+    "native": false,
+    "codeSandbox": true,
+    "files": "**/*.md"
   },
   "entries": {
-    "test.mdx": {
-      "name": "Hello world",
-      "id": "500c9e61ab378cdcebd3a49a682704ef",
-      "filepath": "test.mdx",
-      "link": "https://github.com/cryzzchen/dozdemo\\edit\\master/test.mdx",
-      "slug": "test",
-      "route": "/test",
+    "document/test/test b.md": {
+      "id": "59836e99ad1f74870982371109964d98",
+      "filepath": "document/test/test b.md",
+      "link": "https://github.com/cryzzchen/dozdemo\\edit\\master\\document/test/test b.md",
+      "slug": "document-test-test-b",
+      "route": "/document-test-test-b",
+      "name": "Test b",
       "order": 0,
       "menu": null,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "hello-world",
-          "value": "Hello world"
-        }
-      ]
+      "headings": []
     },
-    "components/buttons.mdx": {
-      "menu": "components",
-      "name": "Hello world",
-      "id": "03f35749485c03aeeb07bc90c21f4ff8",
-      "filepath": "components/buttons.mdx",
-      "link": "https://github.com/cryzzchen/dozdemo\\edit\\master/components/buttons.mdx",
-      "slug": "components-buttons",
-      "route": "/components-buttons",
+    "document/test/中文.md": {
+      "id": "4ebce0a4b276aa0d21c7455c158f5c82",
+      "filepath": "document/test/中文.md",
+      "link": "https://github.com/cryzzchen/dozdemo\\edit\\master\\document/test/中文.md",
+      "slug": "document-test",
+      "route": "/document-test",
+      "name": "中文",
       "order": 0,
-      "headings": [
-        {
-          "depth": 1,
-          "slug": "hello-world",
-          "value": "Hello world"
-        }
-      ]
+      "menu": null,
+      "headings": []
     }
   }
 }

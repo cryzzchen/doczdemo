@@ -1,6 +1,6 @@
 export const imports = {
-  'test.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "test" */ 'test.mdx'),
-  'components/buttons.mdx': () =>
-    import(/* webpackPrefetch: true, webpackChunkName: "components-buttons" */ 'components/buttons.mdx'),
+  'document/test/test b.md': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "document-test-test-b" */ 'document/test/test b.md'),
+  'document/test/中文.md': () =>
+    import(/* webpackPrefetch: true, webpackChunkName: "document-test" */ 'document/test/中文.md'),
 }

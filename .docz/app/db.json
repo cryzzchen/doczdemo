@@ -9,7 +9,10 @@
     "repository": "https://github.com/cryzzchen/dozdemo",
     "native": false,
     "codeSandbox": true,
-    "files": "**/*.md"
+    "files": "**/*.md",
+    "mdPlugins": [
+      null
+    ]
   },
   "entries": {
     "document/test/test b.md": {
@@ -21,7 +24,13 @@
       "name": "Test b",
       "order": 0,
       "menu": null,
-      "headings": []
+      "headings": [
+        {
+          "depth": 1,
+          "slug": "test",
+          "value": "test"
+        }
+      ]
     },
     "document/test/中文.md": {
       "id": "4ebce0a4b276aa0d21c7455c158f5c82",

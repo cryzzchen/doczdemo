@@ -10,3 +10,4 @@ dist/
 npm-debug.log
 npm-debug.log.2587420473
 server/node_modules/
+.docz/
